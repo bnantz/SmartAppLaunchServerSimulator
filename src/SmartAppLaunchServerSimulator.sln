@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microservice", "microservice\microservice.csproj", "{A681DF39-E3D8-4845-8D6C-B160F3027581}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "unittests", "unittests\unittests.csproj", "{799FC617-365A-414C-9634-1517E54AEE57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bddtests", "bddtests\bddtests.csproj", "{F86FC2FF-5DB9-4FC9-8A68-EB1E24EA699D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A681DF39-E3D8-4845-8D6C-B160F3027581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A681DF39-E3D8-4845-8D6C-B160F3027581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A681DF39-E3D8-4845-8D6C-B160F3027581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A681DF39-E3D8-4845-8D6C-B160F3027581}.Release|Any CPU.Build.0 = Release|Any CPU
+		{799FC617-365A-414C-9634-1517E54AEE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799FC617-365A-414C-9634-1517E54AEE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799FC617-365A-414C-9634-1517E54AEE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799FC617-365A-414C-9634-1517E54AEE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86FC2FF-5DB9-4FC9-8A68-EB1E24EA699D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86FC2FF-5DB9-4FC9-8A68-EB1E24EA699D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86FC2FF-5DB9-4FC9-8A68-EB1E24EA699D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86FC2FF-5DB9-4FC9-8A68-EB1E24EA699D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88817F3E-0E21-4C86-B5E3-A20892592D23}
+	EndGlobalSection
+EndGlobal

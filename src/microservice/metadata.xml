@@ -1,0 +1,56 @@
+<Conformance xmlns="http://hl7.org/fhir">
+    <url value="https://muse.gehealthcare.com/metadata" />
+    <version value="TZzRezXMT8l7jtxLL6OLcugB" />
+    <copyright value="Copyright 2018-2020 General Electic Company.  All Rights Reserved." />
+    <status value="active" />
+    <experimental value="true" />
+    <date value="2018-04-17T19:32:05Z" />
+    <fhirVersion value="1.0.2" />
+    <acceptUnknown value="no" />
+    <format value="xml" />
+    <format value="json" />
+    <id value="TZzRezXMT8l7jtxLL6OLcugB" />
+    <kind value="instance" />
+    <software>
+        <name value="MUSE NX" />
+        <version value="10.1.2.18715" />
+    </software>
+    <rest>
+        <mode value="server" />
+        <security>
+            <cors value="true" />
+            <service>
+                <text value="OAuth" />
+                <coding>
+                    <system value="http://hl7.org/fhir/ValueSet/restful-security-service" />
+                    <code value="OAuth" />
+                    <display value="OAuth" />
+                </coding>
+            </service>
+            <service>
+                <text value="SMART-on-FHIR" />
+                <coding>
+                    <system value="http://hl7.org/fhir/ValueSet/restful-security-service" />
+                    <code value="SMART-on-FHIR" />
+                    <display value="SMART-on-FHIR" />
+                </coding>
+            </service>
+            <service>
+                <text value="Basic" />
+                <coding>
+                    <system value="http://hl7.org/fhir/ValueSet/restful-security-service" />
+                    <code value="Basic" />
+                    <display value="Basic" />
+                </coding>
+            </service>
+            <extension url="http://fhir-registry.smarthealthit.org/StructureDefinition/oauth-uris">
+                <extension url="authorize">
+                    <valueUri value="https://muse.gehealthcare.com/oauth2/authorize" />
+                </extension>
+                <extension url="token">
+                    <valueUri value="https://muse.gehealthcare.com/oauth2/token" />
+                </extension>
+            </extension>
+        </security>
+    </rest>
+</Conformance>
